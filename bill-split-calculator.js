@@ -34,7 +34,7 @@ function billSplitter(bill, tipPercentage, numberOfSplits){
 
 const personalBill = billSplitter(bill, tipPercentage, numberOfSplits);
 
-if (personalBill >200){
+if (personalBill >200 && numberOfSplits > 1){
     console.log('$' + personalBill + " per person. Daaaamn, you have expensive friends!")
 }else if (personalBill<5){
     console.log('$' + personalBill + " per person. Be the hero and just cover the whole thing.")
