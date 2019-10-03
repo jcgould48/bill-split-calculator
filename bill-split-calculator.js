@@ -9,7 +9,9 @@ console.log(bill, tipPercentage, numberOfSplits)
 
 function tipConverter(tipPercentage){
     if (tipPercentage>1){
-    return tipPercentage/100;
+    return tipPercentage/100;}
+    else if (tipPercentage===undefined){
+        return 0;
 }else {
     return tipPercentage;
 }
@@ -36,7 +38,10 @@ if (personalBill >200){
     console.log('$' + personalBill + " per person. Daaaamn, you have expensive friends!")
 }else if (personalBill<5){
     console.log('$' + personalBill + " per person. Be the hero and just cover the whole thing.")
-} else
+} else if (isNaN(personalBill)){
+    console.log('Numbers are hard');
+} 
+else
 {
     console.log('$' + personalBill + " per person.");
 }
