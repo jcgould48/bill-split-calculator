@@ -42,16 +42,3 @@ if (personalBill >200){
 }
 
 
-//console.log(billSplitter(bill, tipPercentage, numberOfSplits))
-
-
-
-/* if(nextThing=== 'isJD'){
-    const nameToCheckAgainst ='JD'
-    const result = checkIfSameName(nameToCheckAgainst, name);
-   console.log(result);
-} else if (nextThing=== 'isColin'){
-    const nameToCheckAgainst ='Colin'
-    const result = checkIfSameName(nameToCheckAgainst, name);
-    console.log(result);
-} */
