@@ -24,10 +24,10 @@ function splitConverter(numberOfSplits){
 }
 
 function billSplitter(bill, tipPercentage, numberOfSplits){
-const billTotal = bill * (1 + tipConverter(tipPercentage));
-const perPersonTotal =  billTotal / splitConverter(numberOfSplits);
-return (perPersonTotal);
-}   
+    const billTotal = bill * (1 + tipConverter(tipPercentage));
+    const perPersonTotal =  billTotal / splitConverter(numberOfSplits);
+    return (perPersonTotal);
+    }   
 
 const personalBill = billSplitter(bill, tipPercentage, numberOfSplits);
 
